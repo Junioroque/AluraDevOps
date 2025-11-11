@@ -1,7 +1,3 @@
-var pontuacao = prompt("Digite um numero?");
+var saldo = 1000.00;
 
-if(pontuacao >= 100){
-    alert("Parbéns, você venceu!");
-}else {
-    alert("Tente novamente para ganhar.")
-}
+alert(`Seu saldo da conta R$ ${saldo}`);
