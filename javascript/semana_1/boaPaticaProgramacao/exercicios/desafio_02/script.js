@@ -1,3 +1,3 @@
-let mensagem = "Boas vindas!";
+let nome = "Junio";
 
-console.log(mensagem);
+console.log(`Olá, ${nome}!`);
