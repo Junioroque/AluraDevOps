@@ -13,7 +13,7 @@ function mensagem() {
 
         for (let i = fatorial - 1; i >= 1; i--) {
             fatorial *= i;
-            resultado.innerText = `O fatorial é ${fatorial}`;
+            resultado.innerText = `O fatorial é ${fatorial}`;   
         }
     }   
 }
