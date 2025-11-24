@@ -1,11 +1,13 @@
 function mensagem() {
-    let numero = document.getElementById("numero").value;
+    let numero1 = Number(document.getElementById("numero1").value);
+    let numero2 = Number(document.getElementById("numero2").value);
+    let numero3 = Number(document.getElementById("numero3").value);
     let resultado = document.getElementById("resultado");
 
-    let dobro = numero * 2;
+    let media = (numero1 + numero2 + numero3) / 3;
     
-    resultado.innerHTML = `O doblo: ${dobro}`;   
-    console.log(`O doblo: ${dobro}`); 
+    resultado.innerHTML = `A media: ${media}`;   
+    console.log(`A media: ${media}`); 
 }
 
 
